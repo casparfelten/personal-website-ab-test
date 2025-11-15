@@ -1,0 +1,10 @@
+{
+    "builds": [
+        { "src": "/optionA/index.html", "use": "@vercel/static" },
+        { "src": "/optionB/index.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+        { "src": "/optiona", "dest": "/optionA/index.html" },
+        { "src": "/optionb", "dest": "/optionB/index.html" }
+    ]
+}
